@@ -1,0 +1,54 @@
+header {
+    background-color: rgb(38, 204, 38);
+    padding: 2px;
+}
+
+
+.conteiner {
+    width: 100%;
+    background-color: gray;
+    overflow-x: auto;
+}
+
+
+.horarioApe {
+    display: inline-block;
+    display: flexbox;
+    
+}
+
+.hora {
+    background-color: rgba(255, 0, 0, 0.397);
+
+}
+.tabla-deslizable #tablaParent{
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td, tr {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+    background-color: rgb(164, 215, 235);
+}
+
+th{
+    background-color: skyblue;
+}
+
+.form {
+    display: none;
+}
+
+.botonReservar {
+    background: transparent;
+    border: none;
+}
